@@ -14,7 +14,6 @@ public class DodgemTest {
     @Before
     public void setUp() throws Exception {
         dodgems = new Dodgems("Bumper Cars", 5);
-        visitor1 = new Visitor(14, 1.2, 40.0);
         visitor2 = new Visitor(21, 2.1, 21.0);
         visitor3 = new Visitor(11, 2.1, 21.0);
     }
