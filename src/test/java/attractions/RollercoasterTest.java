@@ -41,6 +41,7 @@ public class RollercoasterTest {
     public void hasDefaultPrice(){
         assertEquals(8.40, rollerCoaster.defaultPrice(), 0.01);
     }
+
     @Test
     public void hasDiscriminatoryPricing(){
         assertEquals(16.80, rollerCoaster.priceFor(visitor2), 0.01);
